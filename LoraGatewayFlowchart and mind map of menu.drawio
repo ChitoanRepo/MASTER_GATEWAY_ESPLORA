@@ -43,7 +43,7 @@
         <mxCell id="bHac39bxR2eeauODU_hb-8" value="Display Task (core 0)&lt;br&gt;Display Initial" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bHac39bxR2eeauODU_hb-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bHac39bxR2eeauODU_hb-10" value="Time Sync Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2490" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-12" target="bHac39bxR2eeauODU_hb-95">
@@ -350,19 +350,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-95" value="Millis - lastsend &amp;gt; 500ms" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="400" width="170" height="80" as="geometry" />
+          <mxGeometry x="1850" y="430" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-97">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1940" y="380" as="targetPoint" />
+            <mxPoint x="1940" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2310" y="440" />
-              <mxPoint x="2310" y="380" />
+              <mxPoint x="2310" y="470" />
+              <mxPoint x="2310" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-97" value="- Send package to node.&lt;br&gt;- Set lastsend = millis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2095" y="410" width="160" height="60" as="geometry" />
+          <mxGeometry x="2095" y="440" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-101" target="bHac39bxR2eeauODU_hb-103">
           <mxGeometry relative="1" as="geometry" />
@@ -381,20 +381,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-101" value="Time == Ontime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="560" width="150" height="80" as="geometry" />
+          <mxGeometry x="1860" y="590" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-103">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1940" y="380" as="targetPoint" />
+            <mxPoint x="1940" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2310" y="600" />
-              <mxPoint x="2310" y="380" />
-              <mxPoint x="1950" y="380" />
+              <mxPoint x="2310" y="630" />
+              <mxPoint x="2310" y="410" />
+              <mxPoint x="1950" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-103" value="Turn on Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2095" y="570" width="160" height="60" as="geometry" />
+          <mxGeometry x="2095" y="600" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-105" target="bHac39bxR2eeauODU_hb-107">
           <mxGeometry relative="1" as="geometry" />
@@ -406,12 +406,12 @@
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-105">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1935" y="380" as="targetPoint" />
+            <mxPoint x="1935" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1935" y="820" />
-              <mxPoint x="1820" y="820" />
-              <mxPoint x="1820" y="380" />
-              <mxPoint x="1935" y="380" />
+              <mxPoint x="1935" y="850" />
+              <mxPoint x="1820" y="850" />
+              <mxPoint x="1820" y="410" />
+              <mxPoint x="1935" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -421,19 +421,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-105" value="Time == Offtime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1865" y="720" width="140" height="80" as="geometry" />
+          <mxGeometry x="1865" y="750" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-107">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1940" y="380" as="targetPoint" />
+            <mxPoint x="1940" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2310" y="760" />
-              <mxPoint x="2310" y="380" />
+              <mxPoint x="2310" y="790" />
+              <mxPoint x="2310" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-107" value="Turn off Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2095" y="730" width="160" height="60" as="geometry" />
+          <mxGeometry x="2095" y="760" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

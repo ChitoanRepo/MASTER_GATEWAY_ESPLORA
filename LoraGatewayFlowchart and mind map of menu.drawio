@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="28.2.5">
   <diagram name="Trang-1" id="fqrvOCOE7Wg9TZmXTjMC">
-    <mxGraphModel dx="766" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,55 +443,65 @@
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-128" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHac39bxR2eeauODU_hb-126">
           <mxGeometry x="-0.0417" y="-2" relative="1" as="geometry">
-            <mxPoint x="2" as="offset" />
+            <mxPoint x="2" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-119" target="bHac39bxR2eeauODU_hb-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-119" value="Wifi Connection == true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2480" y="420" width="140" height="80" as="geometry" />
+          <mxGeometry x="2480" y="450" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-125">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2550" y="380" as="targetPoint" />
+            <mxPoint x="2550" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2550" y="670" />
-              <mxPoint x="2400" y="670" />
-              <mxPoint x="2400" y="380" />
+              <mxPoint x="2550" y="700" />
+              <mxPoint x="2400" y="700" />
+              <mxPoint x="2400" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-125" value="Print(&quot;Cant sync Time form Internet)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="560" width="200" height="60" as="geometry" />
+          <mxGeometry x="2450" y="590" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-129" target="bHac39bxR2eeauODU_hb-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-136" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHac39bxR2eeauODU_hb-133">
+          <mxGeometry x="-0.3439" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-129">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2550" y="380" as="targetPoint" />
+            <mxPoint x="2550" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2880" y="460" />
-              <mxPoint x="2880" y="380" />
+              <mxPoint x="2880" y="490" />
+              <mxPoint x="2880" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-137" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHac39bxR2eeauODU_hb-135">
+          <mxGeometry x="0.2191" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-129" value="NTP Sync Interval &amp;gt;= 2 Hour" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="420" width="180" height="80" as="geometry" />
+          <mxGeometry x="2680" y="450" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-132">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2550" y="380" as="targetPoint" />
+            <mxPoint x="2550" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2770" y="670" />
-              <mxPoint x="2400" y="670" />
-              <mxPoint x="2400" y="380" />
+              <mxPoint x="2770" y="700" />
+              <mxPoint x="2400" y="700" />
+              <mxPoint x="2400" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-132" value="Sync Time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="2710" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

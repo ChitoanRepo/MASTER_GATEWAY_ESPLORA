@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="28.2.5">
   <diagram name="Trang-1" id="fqrvOCOE7Wg9TZmXTjMC">
-    <mxGraphModel dx="1880" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,7 +207,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bHac39bxR2eeauODU_hb-44" value="Relay1 set !Relay1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bHac39bxR2eeauODU_hb-44" value="Relay1 set !Relay1&lt;br&gt;Set timer = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-49" target="bHac39bxR2eeauODU_hb-51">
@@ -225,7 +225,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bHac39bxR2eeauODU_hb-51" value="Relay2 == !Relay2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bHac39bxR2eeauODU_hb-51" value="Relay2 == !Relay2&lt;br&gt;Set timer = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-54" target="bHac39bxR2eeauODU_hb-55">
@@ -243,7 +243,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bHac39bxR2eeauODU_hb-55" value="Relay3 == !Relay3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bHac39bxR2eeauODU_hb-55" value="Relay3 == !Relay3&lt;br&gt;Set timer = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-57" target="bHac39bxR2eeauODU_hb-58">
@@ -261,7 +261,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bHac39bxR2eeauODU_hb-58" value="Relay4 == !Relay4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bHac39bxR2eeauODU_hb-58" value="Relay4 == !Relay4&lt;br&gt;Set timer = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="740" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-63" target="bHac39bxR2eeauODU_hb-66">

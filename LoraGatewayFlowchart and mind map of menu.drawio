@@ -68,6 +68,15 @@
         <mxCell id="bHac39bxR2eeauODU_hb-16" value="If menu == true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="420" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="460" />
+              <mxPoint x="1120" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-18" value="Display menu" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="430" width="120" height="60" as="geometry" />
         </mxCell>
@@ -90,8 +99,28 @@
         <mxCell id="bHac39bxR2eeauODU_hb-25" value="If timer &amp;lt; 30s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="580" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="620" />
+              <mxPoint x="1120" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-27" value="Display Data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="830" />
+              <mxPoint x="730" y="830" />
+              <mxPoint x="730" y="380" />
+              <mxPoint x="840" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-29" value="Display Standby" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="750" width="120" height="60" as="geometry" />

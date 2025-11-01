@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="28.2.5">
   <diagram name="Trang-1" id="fqrvOCOE7Wg9TZmXTjMC">
-    <mxGraphModel dx="1293" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="739" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-8" value="Display Task (core 0)&lt;br&gt;Display Initial" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-10" target="bHac39bxR2eeauODU_hb-119">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-10" value="Time Sync Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2490" y="290" width="120" height="60" as="geometry" />
@@ -434,6 +437,62 @@
         </mxCell>
         <mxCell id="bHac39bxR2eeauODU_hb-107" value="Turn off Node" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2095" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-119" target="bHac39bxR2eeauODU_hb-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-128" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bHac39bxR2eeauODU_hb-126">
+          <mxGeometry x="-0.0417" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-119" target="bHac39bxR2eeauODU_hb-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-119" value="Wifi Connection == true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="420" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2550" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2550" y="670" />
+              <mxPoint x="2400" y="670" />
+              <mxPoint x="2400" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-125" value="Print(&quot;Cant sync Time form Internet)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="560" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-129" target="bHac39bxR2eeauODU_hb-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2550" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2960" y="460" />
+              <mxPoint x="2960" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-129" value="NTP Sync Interval &amp;gt;= 2 Hour" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="420" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bHac39bxR2eeauODU_hb-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2550" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2850" y="670" />
+              <mxPoint x="2400" y="670" />
+              <mxPoint x="2400" y="380" />
+              <mxPoint x="2410" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bHac39bxR2eeauODU_hb-132" value="Sync Time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
